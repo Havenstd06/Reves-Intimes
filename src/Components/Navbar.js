@@ -3,7 +3,6 @@ import { Disclosure, Popover, Transition } from '@headlessui/react'
 import { SearchIcon } from '@heroicons/react/solid'
 import {ChevronDownIcon, LocationMarkerIcon, MenuIcon, ShoppingCartIcon, UserCircleIcon, XIcon} from '@heroicons/react/outline'
 import Logo from "../Assets/Img/logo.png";
-import LingeriePopover from "./Navbar/LingeriePopover";
 
 const navigation = [
     { name: 'Ventes Privées', href: '#', inRed: true },
@@ -12,28 +11,6 @@ const navigation = [
     { name: 'Nuit', href: '#', inRed: false },
     { name: 'Maillots de bain', href: '#', inRed: false },
     { name: 'Homme', href: '#', inRed: false },
-]
-
-const solutions = [
-    {
-        name: 'Inbox',
-        description: 'Get a better understanding of where your traffic is coming from.',
-        href: '#',
-        icon: ChevronDownIcon,
-    },
-    {
-        name: 'Messaging',
-        description: 'Speak directly to your customers in a more meaningful way.',
-        href: '#',
-        icon: ChevronDownIcon,
-    },
-    { name: 'Live Chat', description: "Your customers' data will be safe and secure.", href: '#', icon: ChevronDownIcon },
-    {
-        name: 'Knowledge Base',
-        description: "Connect with third-party tools that you're already using.",
-        href: '#',
-        icon: ChevronDownIcon,
-    },
 ]
 
 function classNames(...classes) {

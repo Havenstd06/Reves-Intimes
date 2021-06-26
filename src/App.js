@@ -4,8 +4,6 @@ import {
   Route,
 } from 'react-router-dom';
 
-import './CSS/App.css';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

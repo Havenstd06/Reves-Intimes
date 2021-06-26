@@ -18,7 +18,6 @@ module.exports = {
     transitionProperty: ['responsive', 'motion-safe', 'motion-reduce']
   },
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio')
+    require('@tailwindcss/forms')
   ],
 }

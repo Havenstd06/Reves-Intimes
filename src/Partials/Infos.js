@@ -30,11 +30,11 @@ const Infos = (props) => {
         <div id={id} className="bg-white">
             <Fade>
                 <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-16 lg:px-8">
-                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 divide-y divide-x-0 md:divide-y-0 md:divide-x divide-blueGray-400 divide-dashed">
                         {infos.map((info) => (
-                            <div className="relative rounded-lg border border-blueGray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-blueGray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-blueGray-500">
+                            <div className="relative bg-white px-6 py-5 flex items-center space-x-3 focus:outline-none">
                                 <div className="flex flex-col items-center justify-center space-y-4 w-full">
-                                    <div className="w-10 text-blueGray-600 opacity-90">
+                                    <div className="w-9 text-blueGray-600 opacity-90">
                                         {info.logo}
                                     </div>
                                     <div className="text-center tracking-wide text-blueGray-800">

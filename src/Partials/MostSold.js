@@ -1,4 +1,5 @@
 import React from "react";
+import MostSoldCard from "../Components/MostSoldCard";
 
 const MostSold = (props) => {
     const { id } = props;
@@ -26,30 +27,26 @@ const MostSold = (props) => {
                     </div>
                     <div>
                         <ul role="list" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                            <li className="relative">
-                                <div className="block overflow-hidden w-full group aspect-w-10 aspect-h-7 cursor-pointer">
-                                    <img src="https://i.imgur.com/V9DrudM.png" width="300" height="300" className="object-cover pointer-events-none group-hover:opacity-75 cursor-pointer rounded-md" />
-                                    <h4 className="mt-2 text-center text-blueGray-700">
-                                        Stimulateur Prostate P-Swing
-                                    </h4>
-                                </div>
-                            </li>
-                            <li className="relative">
-                                <div className="block overflow-hidden w-full group aspect-w-10 aspect-h-7 cursor-pointer">
-                                    <img src="https://i.imgur.com/WSPSHV1.png" width="300" height="300" className="object-cover pointer-events-none group-hover:opacity-75 cursor-pointer rounded-md" />
-                                    <h4 className="mt-2 text-center text-blueGray-700">
-                                        Ensemble 3 Pièces Nuisette String Mitaines
-                                    </h4>
-                                </div>
-                            </li>
-                            <li className="relative">
-                                <div className="block overflow-hidden w-full group aspect-w-10 aspect-h-7 cursor-pointer">
-                                    <img src="https://i.imgur.com/UuzW6gU.png" width="300" height="300" className="object-cover pointer-events-none group-hover:opacity-75 cursor-pointer rounded-md" />
-                                    <h4 className="mt-2 text-center text-blueGray-700">
-                                        Boîte Oeufs Masturbateurs Tenga
-                                    </h4>
-                                </div>
-                            </li>
+                            <MostSoldCard
+                                image="https://i.imgur.com/V9DrudM.png"
+                                title="Stimulateur Prostate P-Swing"
+                                url="#"
+                                price="65,50€"
+                            />
+
+                            <MostSoldCard
+                                image="https://i.imgur.com/WSPSHV1.png"
+                                title="Ensemble 3 Pièces Nuisette String Mitaines"
+                                url="#"
+                                price="49,99€"
+                            />
+
+                            <MostSoldCard
+                                image="https://i.imgur.com/UuzW6gU.png"
+                                title="Boîte Oeufs Masturbateurs Tenga"
+                                url="#"
+                                price="20,99€"
+                            />
                         </ul>
                     </div>
                 </div>

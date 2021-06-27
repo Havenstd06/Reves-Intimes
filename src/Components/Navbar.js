@@ -102,32 +102,32 @@ export default function Navbar() {
                                                             <div className="w-full flex justify-between space-x-4">
                                                                 <div className="w-1/2 h-full">
                                                                     <h3 className="text-blueGray-700 font-semibold">
-                                                                        Soutiens-gorge
+                                                                        Lingerie Femme
                                                                     </h3>
                                                                     <ul className="mt-4 space-y-1">
                                                                         <li>
                                                                             <a href="" className="text-sm text-blueGray-600">
-                                                                                Soutiens-gorge corbeille
+                                                                                Body En Tulle Avec Porte-Jarretelles
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="" className="text-sm text-blueGray-600">
-                                                                                Soutiens-gorge balconnet
+                                                                                Body Ouvert Dentelle Ajourée Avec Lanières
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="" className="text-sm text-blueGray-600">
-                                                                                Soutiens-gorge push-up
+                                                                                Porte-Jarretelles Dentelle Ajourée
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="" className="text-sm text-blueGray-600">
-                                                                                Soutiens-gorge bandeau
+                                                                                Culotte Ouverte Tulle Et Dentelle
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="" className="text-sm text-blueGray-600">
-                                                                                T-shirts bra
+                                                                                Soutien-Gorge Ouvert Triangle
                                                                             </a>
                                                                         </li>
                                                                     </ul>
@@ -135,32 +135,32 @@ export default function Navbar() {
 
                                                                 <div className="w-1/2 h-full pl-4 border-l border-black">
                                                                     <h3 className="text-blueGray-700 font-semibold">
-                                                                        Culotes
+                                                                        Lingerie Homme
                                                                     </h3>
                                                                     <ul className="mt-4 space-y-1">
                                                                         <li>
                                                                             <a href="" className="text-sm text-blueGray-600">
-                                                                                Strings & tangas
+                                                                                String Fantaisie Damier Avec Ficelle
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="" className="text-sm text-blueGray-600">
-                                                                                Culottes Mini-coeur - Échancrées
+                                                                                String Fantaisie Bicolore Avec Ficelle
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="" className="text-sm text-blueGray-600">
-                                                                                Culottes Italienne - Dos dentelle/broderie
+                                                                                String Fantaisie Avec Ficelle
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="" className="text-sm text-blueGray-600">
-                                                                                Culottes Brésilienne - Dos invisible
+                                                                                String Bicolore Simili Cuir Brillant Et Résille
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="" className="text-sm text-blueGray-600">
-                                                                                Shortys St-Tropez
+                                                                                String Simili Cuir Brillant Et Résille
                                                                             </a>
                                                                         </li>
                                                                     </ul>

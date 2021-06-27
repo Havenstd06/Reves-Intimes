@@ -2,7 +2,7 @@ import React from "react";
 
 const MostSoldCard = ({ image, title, url, price}) => {
     return (
-        <div className="flip">
+        <div className="flip mx-auto">
             <div className="flip-content">
                 <div className="flip-front rounded">
                     <img src={image} className="rounded" alt={title + ' logo'}/>

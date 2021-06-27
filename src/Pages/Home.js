@@ -11,7 +11,7 @@ const Home = () => {
                 <Header id="home" />
 
                 {/*  Page content */}
-                <main className="flex-grow z-40">
+                <main className="flex-grow z-40 space-y-16">
 
                     {/*  Page sections */}
                     <MostSold id="mostSold" />

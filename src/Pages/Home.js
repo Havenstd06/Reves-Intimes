@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import Header from "../Partials/Header";
 import Footer from "../Partials/Footer";
+import MostSold from "../Partials/MostSold";
 
 const Home = () => {
     return (
@@ -10,9 +11,10 @@ const Home = () => {
                 <Header id="home" />
 
                 {/*  Page content */}
-                <main className="flex-grow bg-bluebell z-40">
+                <main className="flex-grow z-40">
 
                     {/*  Page sections */}
+                    <MostSold id="mostSold" />
 
                 </main>
 

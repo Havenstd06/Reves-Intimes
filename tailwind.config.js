@@ -12,12 +12,16 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      scale: {
+        '103': '1.03'
+      }
     },
   },
   variants: {
     transitionProperty: ['responsive', 'motion-safe', 'motion-reduce']
   },
   plugins: [
-    require('@tailwindcss/forms')
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/line-clamp'),
   ],
 }

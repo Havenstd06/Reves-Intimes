@@ -15,20 +15,8 @@ const MostSold = (props) => {
                 <div className="md:flex mx-auto items-center justify-between">
                     <div className="md:w-1/4 my-6 md:my-0">
                         <h1 className="text-3xl text-blueGray-600 tracking-widest font-semibold text-center">
-                            Nos produits les plus vendus:
+                            Nos produits les plus vendus
                         </h1>
-
-                        <h4 className="mt-5 text-xl text-blueGray-700 text-center">
-                            Sex-toys
-                        </h4>
-
-                        <h4 className="mt-1 text-xl text-blueGray-700 text-center">
-                            Lingeries
-                        </h4>
-
-                        <h4 className="mt-1 text-xl text-blueGray-700 text-center">
-                            Cosmétiques
-                        </h4>
                     </div>
                     <div>
                         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

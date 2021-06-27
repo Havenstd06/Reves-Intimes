@@ -24,16 +24,6 @@ export default function Navbar() {
                 <>
                     <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 pt-4 z-10">
                         <div className="relative flex justify-between">
-                            <div className="hidden md:relative md:z-10 md:px-2 md:flex md:px-0">
-                                <div className="flex items-center">
-                                    <LocationMarkerIcon className="w-5 font-light" />
-                                    <a href="https://www.google.fr/maps?hl=en&q=155+Route+des+Trois+Lucs+%C3%A0+la+Valentine,+13011+Marseille"
-                                       target="_blank"
-                                       className="ml-2 text-sm text-gray-700 font-light">
-                                        Localisation
-                                    </a>
-                                </div>
-                            </div>
                             <div className="relative z-10 flex items-center md:hidden">
                                 {/* Mobile menu button */}
                                 <Disclosure.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">

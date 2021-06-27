@@ -69,6 +69,7 @@ const Footer = (props) => {
                         <div className="flex items-center mt-1 space-x-3">
                             <a
                                 href="https://www.instagram.com/revesintimes/"
+                                target="_blank"
                                 className="text-gray-500 transition-colors duration-300 hover:text-blueGray-600"
                             >
                                 <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -78,6 +79,7 @@ const Footer = (props) => {
                             </a>
                             <a
                                 href="https://www.facebook.com/reves.intimes"
+                                target="_blank"
                                 className="text-gray-500 transition-colors duration-300 hover:text-blueGray-600"
                             >
                                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">

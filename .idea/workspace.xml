@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9342f88-24b9-4dc2-94d6-e7f5463b9dd5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/craco.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/craco.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/browserconfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/DiscoverCollectionCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/DiscoverCollectionCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/HeroCarouselCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/HeroCarouselCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MostSoldCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MostSoldCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TopClicheCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TopClicheCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Css/MostSoldCardFlip.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Css/MostSoldCardFlip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Partials/DiscoverCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Partials/DiscoverCollection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Partials/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Partials/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Partials/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Partials/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Partials/Infos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Partials/Infos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Partials/MostSold.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Partials/MostSold.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Partials/Newsletter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Partials/Newsletter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Partials/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Partials/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Partials/TopCliche.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Partials/TopCliche.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +64,9 @@
     <setting file="file://$PROJECT_DIR$/src/Components/Navbar.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="NamedScopeManager">
+    <scope name="Copyright" pattern="Copyright (©) 2021-2021 Thomas Drumont" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
   </component>
@@ -60,7 +89,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -101,7 +130,7 @@
       <workItem from="1624728043486" duration="10000" />
       <workItem from="1624728095170" duration="40000" />
       <workItem from="1624728266570" duration="870000" />
-      <workItem from="1624729445932" duration="35023000" />
+      <workItem from="1624729445932" duration="35983000" />
     </task>
     <servers />
   </component>

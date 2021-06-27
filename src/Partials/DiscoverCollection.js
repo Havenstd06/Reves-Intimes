@@ -1,3 +1,7 @@
+/*
+ * Copyright (©) 2021-2021 Thomas Drumont
+ */
+
 import React from "react";
 import Img1 from '../Assets/Img/Top2/1.png';
 import Img2 from '../Assets/Img/Top2/2.png';

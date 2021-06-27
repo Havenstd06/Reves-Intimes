@@ -1,3 +1,7 @@
+/*
+ * Copyright (©) 2021-2021 Thomas Drumont
+ */
+
 const defaultTheme = require('tailwindcss/defaultTheme')
 const defaultColors = require('tailwindcss/colors')
 

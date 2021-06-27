@@ -1,3 +1,7 @@
+/*
+ * Copyright (©) 2021-2021 Thomas Drumont
+ */
+
 import { Fragment } from 'react'
 import { Disclosure, Popover, Transition } from '@headlessui/react'
 import { SearchIcon } from '@heroicons/react/solid'

@@ -1,3 +1,7 @@
+/*
+ * Copyright (©) 2021-2021 Thomas Drumont
+ */
+
 import React from "react";
 
 const TopClicheCard = ({ size, image }) => {

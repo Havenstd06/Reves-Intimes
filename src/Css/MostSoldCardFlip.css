@@ -25,3 +25,7 @@
 .flip-back {
     transform: rotateY(180deg);
 }
+
+.lg-counter {
+    display: none !important;
+}

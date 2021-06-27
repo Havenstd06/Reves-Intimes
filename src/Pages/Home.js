@@ -3,6 +3,7 @@ import Header from "../Partials/Header";
 import Footer from "../Partials/Footer";
 import MostSold from "../Partials/MostSold";
 import DiscoverCollection from "../Partials/DiscoverCollection";
+import TopCliche from "../Partials/TopCliche";
 
 const Home = () => {
     return (
@@ -17,7 +18,9 @@ const Home = () => {
                     {/*  Page sections */}
                     <MostSold id="mostSold" />
 
-                    <DiscoverCollection id="Top2" />
+                    <DiscoverCollection id="DiscoverCollection" />
+
+                    <TopCliche id="TopGallery" />
 
                 </main>
 

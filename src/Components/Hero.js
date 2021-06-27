@@ -1,47 +1,96 @@
+import React from "react";
+import Slider from "react-slick";
+import Carousel from 'nuka-carousel';
+import HeroCarouselCard from "./HeroCarouselCard";
+import {ChevronLeftIcon, ChevronRightIcon} from "@heroicons/react/outline";
 
-export default function Hero() {
+const Hero = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        pauseOnHover: true,
+    };
+
     return (
-        <div className="relative bg-gray-50">
+        <>
+        <Carousel
+            autoplay={true}
+            wrapAround={true}
+            renderCenterLeftControls={({ previousSlide }) => (
+                <div className='hidden md:block absolute inset-y-0 left-0 -translate-y-1/2'>
+                    <button
+                        onClick={previousSlide}
+                        className="ml-2 bg-gray-600 rounded-md bg-black bg-opacity-20 text-white p-2 cursor-pointer"
+                    >
+                        <ChevronLeftIcon className="w-6" />
+                    </button>
+                </div>
+            )}
+            renderCenterRightControls={({ nextSlide }) => (
+                <div className='hidden md:block absolute inset-y-0 right-0 -translate-y-1/2'>
+                    <button
+                        onClick={nextSlide}
+                        className="mr-2 bg-gray-600 rounded-md bg-black bg-opacity-20 text-white p-2 cursor-pointer"
+                    >
+                        <ChevronRightIcon className="w-6" />
+                    </button>
+                </div>
+            )}
 
-            <main className="lg:relative">
-                <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
-                    <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-                        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-                            <span className="block xl:inline">Data to enrich your</span>{' '}
-                            <span className="block text-indigo-600 xl:inline">online business</span>
-                        </h1>
-                        <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-                            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                            fugiat veniam occaecat fugiat aliqua.
-                        </p>
-                        <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
-                            <div className="rounded-md shadow">
-                                <a
-                                    href="#"
-                                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                                >
-                                    Get started
-                                </a>
-                            </div>
-                            <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                                <a
-                                    href="#"
-                                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
-                                >
-                                    Live demo
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-                    <img
-                        className="absolute inset-0 w-full h-full object-cover"
-                        src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
-                        alt=""
-                    />
-                </div>
-            </main>
-        </div>
+            defaultControlsConfig={{
+                pagingDotsStyle: {
+                    fill: '#fff',
+                    marginLeft: '20px',
+                }
+            }}
+        >
+            <HeroCarouselCard
+                image="https://images.unsplash.com/flagged/photo-1579854532496-83053ed63bd1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80"
+                title="Lingerie"
+                description="Découvrer la nouvelle collection de lingerie haut de gamme."
+                url="#"
+            />
+
+            <HeroCarouselCard
+                image="https://images.unsplash.com/photo-1593527538338-86235520a070?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                title="Sex-toys"
+                description="Découvrer la nouvelle gamme de sex-toys masculin et féminin."
+                url="#"
+            />
+
+            <HeroCarouselCard
+                image="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                title="Cosmétique"
+                description="Découvrer tous les accessoires cosmétiques de Rêves Intimes."
+                url="#"
+            />
+        </Carousel>
+            {/*<Slider*/}
+            {/*    {...settings}*/}
+            {/*>*/}
+
+                {/*<HeroCarouselCard*/}
+                {/*    image="https://images.unsplash.com/flagged/photo-1579854532496-83053ed63bd1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80"*/}
+                {/*    title="Lingerie"*/}
+                {/*    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi posuere non leo eget tempor."*/}
+                {/*    url="#"*/}
+                {/*/>*/}
+
+                {/*<HeroCarouselCard*/}
+                {/*    image="https://images.unsplash.com/photo-1561382706-ed59303dceda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80"*/}
+                {/*    title="Lingerie"*/}
+                {/*    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi posuere non leo eget tempor."*/}
+                {/*    url="#"*/}
+                {/*/>*/}
+            {/*</Slider>*/}
+        </>
     )
 }
+
+export default Hero;

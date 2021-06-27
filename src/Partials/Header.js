@@ -9,7 +9,7 @@ const Header = (props) => {
         <div id={id}>
             <Navbar />
 
-            {/*<Hero />*/}
+            <Hero />
         </div>
     )
 }

@@ -8,7 +8,7 @@ const navigation = [
     { name: 'Ventes Privées', href: '#', inRed: true },
     { name: 'Nouveautés', href: '#', inRed: false },
     { name: 'Sextoys', href: '#', inRed: false },
-    { name: 'Nuit', href: '#', inRed: false },
+    { name: 'Cosmétiques', href: '#', inRed: false },
     { name: 'Maillots de bain', href: '#', inRed: false },
     { name: 'Homme', href: '#', inRed: false },
 ]

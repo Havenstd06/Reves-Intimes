@@ -16,7 +16,7 @@ const HeroCarouselCard = ({ image, title, description, url }) => {
                     </h4>
                     <a href={url}
                        className="bg-transparent border border-white py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-white hover:bg-opacity-20 transition duration-200 ease-in-out">
-                        Découvrir
+                        Découvrir Maintenant
                     </a>
                 </div>
             </div>

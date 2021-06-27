@@ -5,7 +5,7 @@ const MostSoldCard = ({ image, title, url, price}) => {
         <div className="flip">
             <div className="flip-content">
                 <div className="flip-front rounded">
-                    <img src={image} className="rounded"/>
+                    <img src={image} className="rounded" alt={title + ' logo'}/>
                 </div>
                 <a href={url} className="flip-back bg-white flex flex-col justify-center border px-4">
                     <div className="text-blueGray-600 text-md font-light">

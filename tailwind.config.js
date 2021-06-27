@@ -14,6 +14,9 @@ module.exports = {
       },
       scale: {
         '103': '1.03'
+      },
+      transitionDuration: {
+        '1500': '1500ms',
       }
     },
   },

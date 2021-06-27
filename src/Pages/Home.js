@@ -6,6 +6,7 @@ import DiscoverCollection from "../Partials/DiscoverCollection";
 import TopCliche from "../Partials/TopCliche";
 import Newsletter from "../Partials/Newsletter";
 import Infos from "../Partials/Infos";
+import Products from "../Partials/Products";
 
 const Home = () => {
     return (
@@ -21,6 +22,8 @@ const Home = () => {
                     <MostSold id="MostSold" />
 
                     <DiscoverCollection id="DiscoverCollection" />
+
+                    <Products id="Products" />
 
                     <TopCliche id="TopGallery" />
 

@@ -56,8 +56,8 @@ const Hero = () => {
 
                 <HeroCarouselCard
                     image={Img2}
-                    title="Sex-toys"
-                    description="Découvrer la nouvelle gamme de sex-toys masculin et féminin."
+                    title="Accessoire coquin"
+                    description="Découvrer la nouvelle gamme d'accessoire coquin masculin et féminin."
                     url="#"
                 />
 

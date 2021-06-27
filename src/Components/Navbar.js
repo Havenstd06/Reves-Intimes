@@ -1,13 +1,13 @@
 import { Fragment } from 'react'
 import { Disclosure, Popover, Transition } from '@headlessui/react'
 import { SearchIcon } from '@heroicons/react/solid'
-import {ChevronDownIcon, LocationMarkerIcon, MenuIcon, ShoppingCartIcon, UserCircleIcon, XIcon} from '@heroicons/react/outline'
+import {ChevronDownIcon, MenuIcon, ShoppingCartIcon, UserCircleIcon, XIcon} from '@heroicons/react/outline'
 import Logo from "../Assets/Img/logo.png";
 
 const navigation = [
-    { name: 'Ventes Privées', href: '#', inRed: true },
+    { name: 'Ventes privées', href: '#', inRed: true },
     { name: 'Nouveautés', href: '#', inRed: false },
-    { name: 'Sextoys', href: '#', inRed: false },
+    { name: 'Accesoires coquins', href: '#', inRed: false },
     { name: 'Cosmétiques', href: '#', inRed: false },
     { name: 'Maillots de bain', href: '#', inRed: false },
     { name: 'Homme', href: '#', inRed: false },

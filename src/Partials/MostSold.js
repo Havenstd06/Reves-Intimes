@@ -1,6 +1,10 @@
 import React from "react";
 import MostSoldCard from "../Components/MostSoldCard";
 
+import Img1 from '../Assets/Img/MostSold/1.png'
+import Img2 from '../Assets/Img/MostSold/2.png'
+import Img3 from '../Assets/Img/MostSold/3.png'
+
 const MostSold = (props) => {
     const { id } = props;
 
@@ -27,21 +31,21 @@ const MostSold = (props) => {
                 <div>
                     <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <MostSoldCard
-                            image="https://i.imgur.com/V9DrudM.png"
+                            image={Img1}
                             title="Stimulateur Prostate P-Swing"
                             url="#"
                             price="65,50€"
                         />
 
                         <MostSoldCard
-                            image="https://i.imgur.com/WSPSHV1.png"
+                            image={Img2}
                             title="Ensemble 3 Pièces Nuisette String Mitaines"
                             url="#"
                             price="49,99€"
                         />
 
                         <MostSoldCard
-                            image="https://i.imgur.com/UuzW6gU.png"
+                            image={Img3}
                             title="Boîte Oeufs Masturbateurs Tenga"
                             url="#"
                             price="20,99€"

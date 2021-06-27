@@ -3,6 +3,10 @@ import Carousel from 'nuka-carousel';
 
 import HeroCarouselCard from "./HeroCarouselCard";
 
+import Img1 from '../Assets/Img/Hero/1.jpeg'
+import Img2 from '../Assets/Img/Hero/2.jpeg'
+import Img3 from '../Assets/Img/Hero/3.jpeg'
+
 import {
     ChevronLeftIcon,
     ChevronRightIcon
@@ -42,21 +46,21 @@ const Hero = () => {
             }}
         >
             <HeroCarouselCard
-                image="https://images.unsplash.com/flagged/photo-1579854532496-83053ed63bd1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80"
+                image={Img1}
                 title="Lingerie"
                 description="Découvrer la nouvelle collection de lingerie haut de gamme."
                 url="#"
             />
 
             <HeroCarouselCard
-                image="https://images.unsplash.com/photo-1593527538338-86235520a070?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                image={Img2}
                 title="Sex-toys"
                 description="Découvrer la nouvelle gamme de sex-toys masculin et féminin."
                 url="#"
             />
 
             <HeroCarouselCard
-                image="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                image={Img3}
                 title="Cosmétique"
                 description="Découvrer tous les accessoires cosmétiques pour homme & femme."
                 url="#"

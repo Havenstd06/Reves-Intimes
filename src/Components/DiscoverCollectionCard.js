@@ -1,6 +1,6 @@
 import React from "react";
 
-const Top2Card = ({ image, title, description, url}) => {
+const DiscoverCollectionCard = ({ image, title, description, url}) => {
     return (
         <a href={url} className="w-1/2">
 
@@ -27,4 +27,4 @@ const Top2Card = ({ image, title, description, url}) => {
     )
 }
 
-export default Top2Card;
+export default DiscoverCollectionCard;

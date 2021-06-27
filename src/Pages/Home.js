@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import Header from "../Partials/Header";
 import Footer from "../Partials/Footer";
 import MostSold from "../Partials/MostSold";
-import Top2 from "../Partials/Top2";
+import DiscoverCollection from "../Partials/DiscoverCollection";
 
 const Home = () => {
     return (
@@ -17,7 +17,7 @@ const Home = () => {
                     {/*  Page sections */}
                     <MostSold id="mostSold" />
 
-                    <Top2 id="Top2" />
+                    <DiscoverCollection id="Top2" />
 
                 </main>
 
